@@ -34,6 +34,8 @@ ClusterX.out <- ClusterX(dt.transform, dimReduction = NULL,
                          outDim = 2,  gaussian = TRUE, 
                          alpha = 0.001, detectHalos = FALSE, 
                          SVMhalos = FALSE, parallel = TRUE, nCore = 20)
+#### CosTaL (python) ####
+# see CosTaL_example.py
 #### Cytometree ####
 library(cytometree)
 CytomeTree.out <- CytomeTree(dt.transform)
